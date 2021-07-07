@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Probar la búsqueda en Google" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-07-05T21:00:43" hostname="DESKTOP-G9G6E6K" time="0.01">
+  <properties/>
+  <testcase name="Busco algo en Google" classname="Probar la búsqueda en Google" time="0.01">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[?[33mU?[0m?[36m-?[0m?[36m-?[0m?[36m-?[0m]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

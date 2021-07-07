@@ -1,0 +1,34 @@
+plugins{
+    id 'java'
+}
+
+//el nombre es cualquiera
+group 'CursoSeleniumJava'
+version '1.0-SNAPSHOT'
+
+// version del JDK instalada o más antigua para mantener la compatilibilidad
+sourceCompatibility = 13
+
+//repositorios de los que traemos las dependencias
+repositories{
+    mavenCentral()
+}
+
+//declaración de las dependencias
+dependencies{
+// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+// https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+implementation group: 'io.cucumber', name: 'cucumber-java', version: '4.2.0'
+// https://mvnrepository.com/artifact/io.cucumber/cucumber-junit
+testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '4.2.0'
+// https://mvnrepository.com/artifact/io.cucumber/cucumber-core
+//implementation group: 'io.cucumber', name: 'cucumber-core', version: '6.10.4'
+implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+// https://mvnrepository.com/artifact/junit/junit
+testImplementation group: 'junit', name: 'junit', version: '4.12'
+
+}
+
+
+
